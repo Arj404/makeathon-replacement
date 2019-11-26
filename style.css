@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,700i,800,800i,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,700i,800,800i,900&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_extend.scss */
 .flex-center-start {
     display: -webkit-box;
@@ -865,7 +866,7 @@ h3 {
 
     /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
     .header-area .main-header-area .logo-img {
-        padding-left: 20px;
+        padding-left: 1em;
     }
 }
 
@@ -873,7 +874,7 @@ h3 {
 
     /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
     .header-area .main-header-area .logo-img {
-        padding-left: 20px;
+        padding-left: 4em;
     }
 }
 
@@ -881,7 +882,7 @@ h3 {
 
     /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
     .header-area .main-header-area .logo-img img {
-        width: 100px;
+        width: 4em;
     }
 }
 
@@ -889,7 +890,7 @@ h3 {
 
     /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
     .header-area .main-header-area .logo-img img {
-        width: 120px;
+        width: 4em;
     }
 }
 
@@ -897,7 +898,7 @@ h3 {
 
     /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
     .header-area .main-header-area .logo-img img {
-        width: 120px;
+        width: 4em;
     }
 }
 
@@ -1107,9 +1108,9 @@ h3 {
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 #svg {
     background-color: #f2ae30;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23f29057' fill-opacity='0.52'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23f29057' fill-opacity='0.52'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     background-size: auto;
-	background-repeat: repeat;
+    background-repeat: repeat;
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
@@ -1117,8 +1118,8 @@ h3 {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    padding-top: 240px;
-    padding-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 80px;
 }
 
 @media (max-width: 767px) {
@@ -1481,11 +1482,12 @@ h3 {
 }
 
 =======
-    /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .countdown_time .single_countdown {
-        margin-right: 10px;
-        margin-top: 20px;
-    }
+
+/* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
+.slider_area .countdown_time .single_countdown {
+    margin-right: 10px;
+    margin-top: 20px;
+}
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1546,8 +1548,8 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     position: relative;
 }
 
@@ -1690,9 +1692,9 @@ h3 {
 
 /* line 93, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area .about_info p {
-    font-size: 16px;
+    font-size: 2.2vh;
     font-weight: 400;
-    line-height: 28px;
+    line-height: inherit;
     color: #808080;
     margin-top: 30px;
     margin-bottom: 60px;
@@ -1849,7 +1851,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
 .speakers_area {
-    padding-top: 100px;
+    padding-top: 50px;
     position: relative;
 }
 
@@ -1950,7 +1952,7 @@ h3 {
     -moz-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-	top: 90%;
+    top: 90%;
 }
 
 /* line 58, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
@@ -2374,6 +2376,7 @@ h3 {
         margin-bottom: 30px;
     }
 }
+
 @media (min-width: 992px) {
 
     .event_area .date h3 {
@@ -2451,9 +2454,9 @@ h3 {
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
 .footer_bg_1 {
     background-color: #f2ae30;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23f29057' fill-opacity='0.52'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23f29057' fill-opacity='0.52'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     background-size: auto;
-	background-repeat: repeat;
+    background-repeat: repeat;
 }
 
 /* line 15, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
@@ -3017,15 +3020,12 @@ h3 {
 }
 
 /* line 133, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
-.contact-section {
-    padding: 10em 0px 2em 0px;
-}
 
 @media (max-width: 991px) {
 
     /* line 133, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
     .contact-section {
-        padding: 70px 0 40px;
+        padding: 40px 0 20px;
     }
 }
 
@@ -3033,7 +3033,7 @@ h3 {
 
     /* line 133, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_contact.scss */
     .contact-section {
-        padding: 80px 0 50px;
+        padding: 50px 0 30px;
     }
 }
 
